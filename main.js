@@ -92,7 +92,7 @@ else console.log(false);
 
 
 console.log('ЗАДАНИЕ 6')
-let numberShip = prompt('ЗАДАНИЕ 6. Сколько овечек?', 5),str=' ';
+let numberShip = prompt('ЗАДАНИЕ 6. Сколько овечек?', 5),str='';
 for (let k=1; k<=numberShip; k++) str+=k+" овечка...";
 console.log(str)
 
