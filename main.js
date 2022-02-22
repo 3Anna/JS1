@@ -77,12 +77,12 @@ console.log(` ${temperatureF_2}\xB0F соответствует ${temperatureC_2
 
 console.log('ЗАДАНИЕ 4')
 let year = prompt('ЗАДАНИЕ 4. Какой год?', 2022);
-//alert(year%4=0 && year%100!=0? `ЗАДАНИЕ 4. Год ${year} високосный` : `ЗАДАНИЕ 4. Год ${year} обычный`);
-if (year%4!=0) alert(`ЗАДАНИЕ 4. Год ${year} обычный`);
+
+/*if (year%4!=0) alert(`ЗАДАНИЕ 4. Год ${year} обычный`); 
 else if(year%100!=0)
     alert(`ЗАДАНИЕ 4. Год ${year} високосный`);
-else alert(`ЗАДАНИЕ 4. Год ${year} обычный`);
-
+else alert(`ЗАДАНИЕ 4. Год ${year} обычный`);*/
+alert((year%4==0 && year%100!=0) ? `ЗАДАНИЕ 4. Год ${year} високосный` : `ЗАДАНИЕ 4. Год ${year} обычный`);
 
 
 console.log('ЗАДАНИЕ 5')
