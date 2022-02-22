@@ -27,32 +27,32 @@ console.log("Фактический:", typeof(2 != 1));
 
 
 //"сыр" + "ы"
-console.log("'сыр' + 'ы' - Предположение: string");
-console.log("Фактический:", typeof("сыр" + "ы"));
+console.log("'сыр' + 'ы' - Предположение: сыры");
+console.log("Фактический:", "сыр" + "ы");
 
 //"сыр" - "ы"
-console.log("'сыр' - 'ы' - Предположение: string");
-console.log("Фактический:", typeof("сыр" - "ы"));
+console.log("'сыр' - 'ы' - Предположение: undefined");
+console.log("Фактический:", ("сыр" - "ы"));
 
 //"2" + "4"
-console.log("'2' + '4' - Предположение: number");
-console.log("Фактический:", typeof("2" + "4"));
+console.log("'2' + '4' - Предположение: 6");
+console.log("Фактический:", ("2" + "4"));
 
 //"2" - "4"
-console.log("'2' - '4' - Предположение: number");
-console.log("Фактический:", typeof("2" - "4"));
+console.log("'2' - '4' - Предположение: -2");
+console.log("Фактический:", ("2" - "4"));
 
 //"Сэм" + 5
-console.log("'Сэм' + 5 - Предположение: string"); 
-console.log("Фактический:", typeof('Сэм' + 5));
+console.log("'Сэм' + 5 - Предположение: Cэм5"); 
+console.log("Фактический:", ('Сэм' + 5));
 console.log("Сэм" + 5)
 //"Сэм" - 5
-console.log("'Сэм' - 5 - Предположение: string");//ошиблась
-console.log("Фактический:", typeof('Сэм' - 5));
+console.log("'Сэм' - 5 - Предположение: undefined");
+console.log("Фактический:", ('Сэм' - 5));
 
 //99 * "шары"
-console.log("99 * 'шары' - Предположение: string");//ошиблась
-console.log("Фактический:", typeof(99 * 'шары'));
+console.log("99 * 'шары' - Предположение: NaN");
+console.log("Фактический:", (99 * 'шары'));
 
 console.log("ЗАДАНИЕ 2")
 let side1, side2, perimeter, square;
